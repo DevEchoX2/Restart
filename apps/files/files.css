@@ -1,0 +1,58 @@
+.files-app {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  height: 100%;
+}
+
+.files-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.files-toolbar button {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 10px;
+}
+
+.files-path {
+  margin-left: auto;
+  opacity: 0.8;
+}
+
+.files-content {
+  overflow: auto;
+}
+
+.files-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.file-card {
+  display: grid;
+  gap: 6px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.05);
+  text-align: left;
+}
+
+.files-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.files-list th,
+.files-list td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+  padding: 8px;
+}

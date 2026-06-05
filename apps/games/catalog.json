@@ -1,0 +1,20 @@
+[
+  {
+    "id": "x-trial-racing",
+    "title": "X Trial Racing",
+    "description": "Arcade racing challenge in-browser",
+    "url": "https://example.com"
+  },
+  {
+    "id": "retro-puzzle",
+    "title": "Retro Puzzle",
+    "description": "Fast reflex puzzle loops",
+    "url": "https://example.com"
+  },
+  {
+    "id": "space-sim-lite",
+    "title": "Space Sim Lite",
+    "description": "Mini browser sci-fi sim",
+    "url": "https://example.com"
+  }
+]

@@ -1,0 +1,6 @@
+:root {
+  --theme-bg: url('../images/background.png');
+  --text-color: #f5f8ff;
+  --panel-bg: rgba(255, 255, 255, 0.08);
+  --panel-border: rgba(255, 255, 255, 0.15);
+}
