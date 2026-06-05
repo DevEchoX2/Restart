@@ -1,0 +1,43 @@
+.browser-app {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  height: 100%;
+}
+
+.browser-toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.browser-toolbar button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.browser-address-form {
+  flex: 1;
+}
+
+.browser-address {
+  width: 100%;
+  height: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  color: inherit;
+  padding: 0 10px;
+}
+
+.browser-frame {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background: white;
+}

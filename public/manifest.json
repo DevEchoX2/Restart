@@ -1,0 +1,15 @@
+{
+  "name": "restart",
+  "short_name": "restart",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "../assets/images/fallback-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

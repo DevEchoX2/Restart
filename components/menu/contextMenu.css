@@ -1,0 +1,27 @@
+.context-menu {
+  position: fixed;
+  min-width: 170px;
+  padding: 8px;
+  border-radius: 12px;
+  display: grid;
+  gap: 4px;
+  backdrop-filter: blur(12px) saturate(160%);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.36);
+  z-index: 3000;
+}
+
+.context-menu button {
+  border: 0;
+  border-radius: 8px;
+  text-align: left;
+  padding: 8px 10px;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+.context-menu button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}

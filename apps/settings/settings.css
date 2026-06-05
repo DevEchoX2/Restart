@@ -1,0 +1,31 @@
+.settings-app {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 12px;
+  min-height: 100%;
+}
+
+.settings-nav {
+  display: grid;
+  gap: 8px;
+}
+
+.settings-nav button {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px;
+  text-align: left;
+}
+
+.settings-panel {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.settings-panel-block {
+  display: grid;
+  gap: 10px;
+}
